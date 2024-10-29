@@ -24,7 +24,7 @@ jobs:
 
       # Run tests
       - name: Run tests
-        run: - docker run -e CI=true developpex/react-test npm test
+        run: docker run -e CI=true developpex/react-test npm test
 
   build-and-deploy:
     runs-on: ubuntu-latest
